@@ -1,0 +1,7 @@
+@use "../../../../Templates/default/delos.scss" with (
+    $il-main-color: green
+    ,$c-footer__fine-print__font-size: .9rem
+    ,$c-btn__primary__bg-color: purple
+);
+
+@debug "Main color is: #{delos.$il-main-color}"

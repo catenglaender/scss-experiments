@@ -1,0 +1,8 @@
+@forward "../010_settings";
+@use "../010_settings" as s;
+
+$c-btn__primary__bg-color: s.$il-main-color !default;
+
+.btn-primary {
+    background-color: $c-btn__primary__bg-color;
+}
